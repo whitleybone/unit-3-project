@@ -8,9 +8,11 @@ body {
 /*============================================*/
 /*============ HEADER STYLES =================*/
 /*============================================*/
+
 .slogan{
     font-family: 'Open Sans Condensed', sans-serif;
     display: flex;
+    flex-direction: column;
     background-color: white;
     justify-content: center;
     border-style: solid;
@@ -34,6 +36,7 @@ body {
     border-color: #FF8F00;
     margin: 2em;
     border-radius: 25px;
+    align-items: flex-start;
 }
 
 .form-container h2 {
@@ -43,6 +46,17 @@ body {
 .form-container fieldset{
     border-style: none;
     
+}
+
+input, textarea {
+    background: #03BABF;
+    opacity: .2;
+    border-style: none;
+}
+
+::placeholder {
+    color: darkblue;
+    opacity: 1;
 }
 
 
