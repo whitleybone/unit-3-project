@@ -1,0 +1,53 @@
+/* FULL BODY STYLES */
+body {
+    background: #03BABF;
+}
+
+
+
+/*============================================*/
+/*============ HEADER STYLES =================*/
+/*============================================*/
+.slogan{
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    border-style: solid;
+    border-color: #FF8F00;
+    margin: 2em;
+    border-radius: 25px;
+}
+
+
+/*============================================*/
+/*============ MAIN FORM STYLES ==============*/
+/*============================================*/
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: white;
+    justify-content: center;
+    border-style: solid;
+    border-color: #FF8F00;
+    margin: 2em;
+    border-radius: 25px;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container fieldset{
+    border-style: none;
+    
+}
+
+
+
+/*============================================*/
+/*============ FOOTER STYLES =================*/
+/*============================================*/
+
