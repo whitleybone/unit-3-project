@@ -27,6 +27,7 @@ body {
 .slogan h2 {
     font-weight: bolder;
     margin: 0;
+    width: auto;
 }
 
 .slogan p {
@@ -45,6 +46,7 @@ body {
     align-items: center;
     border-bottom-style: solid;
     border-bottom-color: #FF8F00;
+    width: 100%;
 }
 .logo-container img{
     width: 3em;
@@ -87,7 +89,7 @@ body {
 }
 
 input:focus { 
-    background-color: #03BABF;
+    border-color: #03BABF;
 }
 
 input, textarea {
@@ -116,11 +118,23 @@ input[type="tel"] {
     width: 100%;
 }
 
+select{
+    background:#03BABF;
+    opacity: .2;
+}
+
+legend {
+    font-weight: bolder;
+    font-size: 1.05em;
+}
+
 
 
 ::placeholder {
-    color: darkblue;
+    color: black;
     opacity: 1;
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }   
 
 button {
@@ -136,6 +150,9 @@ button {
     width: 100%;
 }
 
+fieldset {
+    margin: 1em;
+}
 
 
 /*============================================*/
@@ -153,9 +170,33 @@ footer h3 {
 /*============================================*/
 
 @media (min-width: 768px) {
-    body {
-        margin: 25px;
+  
+
+    .logo-container {
+        width: 100%;
     }
+
+    .form-container label {
+        display: inline-block;
+        width: 40%;
+        margin-bottom: .4em;
+        
+    }
+
+    .form-container input {
+        display: inline-block;
+        width: 50%; 
+    }
+
+    legend {
+        font-weight: bolder;
+        font-size: 1.3em;
+    }
+
+
+
+
+  
 
 
 
