@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +9,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
 </head>
 <body>
-    <!------------------------------------------------->
-    <!-------------------HEADER------------------------>
-    <!------------------------------------------------->
+   
+    <!--HEADER-->
+    
     <header>
       <div class="logo-container">
-        <img src="images/Hipster On the Weekends-2.png" alt="Hipster on the Weekends Logo">
+        <img src="images/HOTWlogo.png" alt="Hipster on the Weekends Logo">
         <h1>Hipster on the Weekends</h1>
       </div>
     </header>
@@ -29,37 +29,42 @@
 
 
 
-    <!------------------------------------------------->
-    <!-------------------MAIN FORM--------------------->
-    <!------------------------------------------------->
+    
+    <!--MAIN FORM-->
+    
     <div class="form-container">
         <h2>Subscribe to the Newsletter!</h2>
         <form action="subscribe-newsletter" method="post">
             <fieldset>
                 <legend>Your Info</legend>
             <div>
-                <label for="name">Name:</label>
+                <label for="name"> Name:
                 <input type="text" id="name" name="user_name" placeholder="Required" required>
+            </label>
             </div>
             <div>
-                <label for="mail">E-mail:</label>
+                <label for="mail">E-mail:
                 <input type="email" id="mail" name="user_mail" placeholder="Required" required>
+            </label>
             </div>
             <div>
-                <label for="phone">Phone Number:</label>
-                <input type="tel" name="user_phone"></textarea>
+                <label for="phone">Phone Number:
+                <input type="tel" id="phone" name="user_phone">
+            </label>
             </div>
             <div>
-                <label for="street">Street Address:</label>
-                <input type="text" name="user_street"></textarea>
+                <label for="street">Street Address:
+                <input type="text" id="street" name="user_street">
+            </label>
             </div>
             <div>
-                <label for="city">City:</label>
-                <input type="text" name="user_city"></textarea>
+                <label for="city">City:
+                <input type="text" id="city" name="user_city">
+            </label>
             </div>
             <div>
-                <label for="state">State:</label>
-                <select>
+                <label for="state">State:
+                <select id="state">
                         <option value="AL">Alabama</option>
                         <option value="AK">Alaska</option>
                         <option value="AZ">Arizona</option>
@@ -112,10 +117,12 @@
                         <option value="WI">Wisconsin</option>
                         <option value="WY">Wyoming</option>
                     </select>
+                </label>
             </div>
             <div>
-                    <label for="zip">Zip Code:</label>
-                    <input type="number" name="user_zip"></textarea>
+                    <label for="zip">Zip Code:
+                    <input type="number" id="zip" name="user_zip">
+                </label>
                 </div>
             </fieldset>
 
@@ -147,19 +154,12 @@
             </form>
     </div>
 
-  
 
 
 
-
-
-
-
-
-
-    <!------------------------------------------------->
-    <!-------------------FOOTER------------------------>
-    <!------------------------------------------------->
+    
+    <!--FOOTER-->
+    
 
     <footer>
         <h3>&copy; Hipster on the Weekends</h3>

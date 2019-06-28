@@ -141,7 +141,6 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 1;
     border: solid;
     background: #F8CB9A;
     border-color: #FF8F00;
@@ -188,11 +187,11 @@ footer h3 {
         width: 50%; 
     }
 
-    legend {
-        font-weight: bolder;
+    legend{
         font-size: 1.3em;
     }
 
+}
 
 
 
