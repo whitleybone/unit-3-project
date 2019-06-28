@@ -177,14 +177,14 @@ footer h3 {
 
     .form-container label {
         display: inline-block;
-        width: 40%;
+        width: 50%;
         margin-bottom: .4em;
         
     }
 
     .form-container input {
         display: inline-block;
-        width: 50%; 
+        width: 40%; 
     }
 
     legend{
@@ -198,6 +198,18 @@ footer h3 {
      input[type=radio] {
         width: 30px;
      }
+
+     .choose label {
+         display: inline-block;
+         width: 80%;
+     }
+
+     .choose input {
+        display: inline-block;
+        width: 10%;
+    }
+
+  
 
 }
 
