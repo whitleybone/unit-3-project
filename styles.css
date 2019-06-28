@@ -1,6 +1,8 @@
 /* FULL BODY STYLES */
 body {
     background: #03BABF;
+    margin: auto;
+    
 }
 
 
@@ -13,12 +15,47 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: white;
     justify-content: center;
     border-style: solid;
     border-color: #FF8F00;
     margin: 2em;
     border-radius: 25px;
+}
+
+.slogan h2 {
+    font-weight: bolder;
+    margin: 0;
+}
+
+.slogan p {
+    text-align: center;
+    margin: 0;
+    font-size: .8em;
+    font-style: italic;
+    color: darkgray;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: #FF8F00;
+}
+.logo-container img{
+    width: 3em;
+    height: 3em;
+    margin-right: .5em;
+}
+
+.logo-container h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
 }
 
 
@@ -36,7 +73,8 @@ body {
     border-color: #FF8F00;
     margin: 2em;
     border-radius: 25px;
-    align-items: flex-start;
+    align-items: center;
+    padding: 1em;
 }
 
 .form-container h2 {
@@ -48,15 +86,54 @@ body {
     
 }
 
+input:focus { 
+    background-color: #03BABF;
+}
+
 input, textarea {
     background: #03BABF;
     opacity: .2;
     border-style: none;
 }
 
+.tellme {
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="email"] {
+    width: 100%;
+}
+
+input[type="number"] {
+    width: 100%;
+}
+
+input[type="tel"] {
+    width: 100%;
+}
+
+
+
 ::placeholder {
     color: darkblue;
     opacity: 1;
+}   
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1;
+    border: solid;
+    background: #F8CB9A;
+    border-color: #FF8F00;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 25px;
+    width: 100%;
 }
 
 
@@ -64,4 +141,21 @@ input, textarea {
 /*============================================*/
 /*============ FOOTER STYLES =================*/
 /*============================================*/
+footer h3 {
+    font-size: .3em;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/*============================================*/
+/*============ MEDIA QUERIES =================*/
+/*============================================*/
+
+@media (min-width: 768px) {
+    body {
+        margin: 25px;
+    }
+
+
 

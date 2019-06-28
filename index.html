@@ -13,13 +13,16 @@
     <!-------------------HEADER------------------------>
     <!------------------------------------------------->
     <header>
-        <div class="slogan">
-            <h1>NEVER MISS A BEAT!</h1>
-            <p>Always stay in the loop with what's going on in Whit's world!</p>
-        </div>
-            <nav></nav>
-
+      <div class="logo-container">
+        <img src="images/Hipster On the Weekends-2.png" alt="Hipster on the Weekends Logo">
+        <h1>Hipster on the Weekends</h1>
+      </div>
     </header>
+
+    <div class="slogan">
+        <h2>NEVER MISS A BEAT!</h2>
+        <p>Always stay in the loop with what's going on in Whit's world!</p>
+    </div>
 
    
 
@@ -36,11 +39,11 @@
                 <legend>Your Info</legend>
             <div>
                 <label for="name">Name:</label><br>
-                <input type="text" id="name" name="user_name">
+                <input type="text" id="name" name="user_name" placeholder="Required">
             </div>
             <div>
                 <label for="mail">E-mail:</label><br>
-                <input type="email" id="mail" name="user_mail">
+                <input type="email" id="mail" name="user_mail" placeholder="Required">
             </div>
             <div>
                 <label for="phone">Phone Number:</label><br>
@@ -118,20 +121,20 @@
 
             <fieldset>
                 <legend>Choose Your Subscription:</legend>
-                <form>
-                    <input type="checkbox" name="bts" value="Behind the Scenes: Creating Music" checked> Behind the Scenes: Creating Music<br>
-                    <input type="checkbox" name="osww" value="On Stage With Whit"> On Stage With Whit<br>
-                    <input type="checkbox" name="imh" value="In My Head: Personal Blog"> In My Head: Personal Blog
-                </form>
+            
+                    <input type="checkbox" id="bts" name="bts" value="Behind the Scenes: Creating Music" checked> Behind the Scenes: Creating Music<br>
+                    <input type="checkbox" id="osww" name="osww" value="On Stage With Whit"> On Stage With Whit<br>
+                    <input type="checkbox" id="imh" name="imh" value="In My Head: Personal Blog"> In My Head: Personal Blog
+        
             </fieldset>
 
             <fieldset>
                     <legend>How Would You Like to Receive It:</legend>
-                    <form>
-                        <input type="checkbox" name="email" value="Email" checked> Email<br>
-                        <input type="checkbox" name="textmessage" value="Text Message"> Text Message<br>
-                        <input type="checkbox" name="print" value="Printed"> Printed
-                    </form>
+        
+                        <input type="radio" id="html" name="receive" value="HTML"> HTML<br>
+                        <input type="radio" id="plaintext" name="receive" value="Plain Text"> Plain Text<br>
+                
+            
             </fieldset>
 
             <fieldset>
@@ -157,6 +160,10 @@
     <!------------------------------------------------->
     <!-------------------FOOTER------------------------>
     <!------------------------------------------------->
+
+    <footer>
+        <h3>&copy; Hipster on the Weekends</h3>
+    </footer>
     
 </body>
 </html>
