@@ -88,10 +88,6 @@ body {
     
 }
 
-input:focus { 
-    border-color: #03BABF;
-}
-
 input, textarea {
     background: #03BABF;
     opacity: .2;
@@ -135,7 +131,11 @@ legend {
     opacity: 1;
     font-family: 'Open Sans Condensed', sans-serif;
 
-}   
+} 
+
+input[type="checkbox"]{
+    background: #03BABF;
+}
 
 button {
     display: flex;
@@ -153,10 +153,12 @@ fieldset {
     margin: 1em;
 }
 
-  textarea:focus, input:focus {
+  textarea:focus, input:focus, {
       background-color: goldenrod;
       transition: background-color 3s ease;
   }
+
+
 
 
 /*============================================*/
