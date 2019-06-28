@@ -191,6 +191,14 @@ footer h3 {
         font-size: 1.3em;
     }
 
+    input[type=checkbox] {
+        width: 30px;
+     }
+
+     input[type=radio] {
+        width: 30px;
+     }
+
 }
 
 
