@@ -153,6 +153,11 @@ fieldset {
     margin: 1em;
 }
 
+  textarea:focus, input:focus {
+      background-color: goldenrod;
+      transition: background-color 3s ease;
+  }
+
 
 /*============================================*/
 /*============ FOOTER STYLES =================*/
@@ -169,10 +174,20 @@ footer h3 {
 /*============================================*/
 
 @media (min-width: 768px) {
+    
   
 
     .logo-container {
+        background: #F0F0F0  ;
         width: 100%;
+    }
+
+    .form-container {
+        background: #F0F0F0  ;
+    }
+
+    .slogan{
+        background: #F0F0F0;
     }
 
     .form-container label {
