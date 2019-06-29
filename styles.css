@@ -117,6 +117,7 @@ input[type="tel"] {
 select{
     background:#03BABF;
     opacity: .2;
+    width: 100%;
 }
 
 legend {
@@ -149,9 +150,9 @@ fieldset {
     margin: 1em;
 }
 
-  textarea:focus, input:focus, {
+  textarea:focus, input:focus {
       background-color: goldenrod;
-      transition: background-color 3s ease;
+      transition: background-color 2s ease;
   }
 
 
@@ -176,7 +177,6 @@ footer h3 {
   
 
     .logo-container {
-        background: #F0F0F0  ;
         width: 100%;
     }
 
@@ -189,24 +189,36 @@ footer h3 {
     .slogan{
         background: #F0F0F0;
         width: 60%;
-        margin:auto;
+        margin: auto;
         margin-bottom: 1em;
         margin-top: 1em;
-        
-
     }
 
     .form-container label {
         display: inline-block;
-        width: 50%;
+        width: 30%;
         margin-bottom: .4em;
         
     }
 
     .form-container input {
         display: inline-block;
-        width: 40%; 
+        width: 65%; 
     }
+
+    .choose label {
+        display: inline-block;
+        width: 80%;
+    }
+
+    .choose input {
+       display: inline-block;
+       width: 10%;
+   }
+
+   form {
+       width: 75%;
+   }
 
     legend{
         font-size: 1.3em;
@@ -220,17 +232,20 @@ footer h3 {
         width: 30px;
      }
 
-     .choose label {
-         display: inline-block;
-         width: 80%;
+
+     button {
+         width: 30%;
+         margin: auto;
      }
 
-     .choose input {
-        display: inline-block;
-        width: 10%;
-    }
 
+select {
+    width: 66%;
+}
   
+
+
+   
 
 }
 
